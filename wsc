@@ -74,7 +74,7 @@ ws.on('open', () => {
     }
 
     clear();
-    console.log(chalk.gray(output));
+    console.log(chalk.yellow(output));
     rl.prompt();
   });
 
